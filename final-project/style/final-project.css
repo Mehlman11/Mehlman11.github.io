@@ -1,0 +1,30 @@
+#maincontainer {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: yellow;
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+h1 {
+    background-color: rgb(254, 254, 3);
+    color: black;
+    font-size: 40pt;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+img { 
+    width: 30%;
+    height: 50%;
+    align-items: center;
+    padding-top: 10px;
+}
+P{
+    color: white;
+}

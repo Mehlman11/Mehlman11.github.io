@@ -19,8 +19,10 @@
 }
 
 
+
+
 #chessboard {
-    width: 90%;
+    width: 100%;
     display: flex;
     /* horizontal */
     flex-direction: column;
@@ -35,17 +37,17 @@
 }
 
 
-#chessboard div div{
+#chessboard div>div{
 
    
-    flex-grow: 1;
+    flex: 1;
     background-color: rgb(8, 123, 254);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30pt;
     color: rgb(251, 250, 250);
-    width: 10%;
+    
 
 }
 
@@ -57,7 +59,7 @@
     background-color: orange;
 }
 
-/* defines inside individual div */
+/* defines inside individual div 
 #chessboard div:nth-of-type(2) div:nth-of-type(3) {
     background-color: rgb(15, 15, 15);
 }
@@ -83,7 +85,7 @@
     height: 12.5%;
     display: flex;
     flex-direction: row;
-    outline: 3px solid red;
+    outline: 3px solid black;
     flex-grow: 1;
 }
 
@@ -156,4 +158,34 @@
 #chessboard div:nth-of-type(10) div:nth-child(8) {
     background-color: white;
     color: black;
+}
+
+.side-number {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold;
+  
+}
+/* Base color for ONLY playable rows */
+#chessboard > div:not(.letters) > div {
+  background-color: rgb(8, 123, 254);
+}
+
+/* Orange pattern ONLY on playable rows */
+#chessboard > div:not(.letters):nth-child(even) > div:nth-child(even),
+#chessboard > div:not(.letters):nth-child(odd)  > div:nth-child(odd) {
+  background-color: orange;
+}
+#chessboard > .letters > div {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold;
+   outline: 3px solid black;
+}
+.seven {
+    color: black !important;
+}
+.eight {
+    color: black !important;
+    
 }

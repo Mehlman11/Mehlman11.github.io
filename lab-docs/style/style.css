@@ -1,0 +1,68 @@
+h1 {
+    background-color: yellow;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+  border-radius: 14px;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  font-family: "walnut", sans-serif;
+font-weight: 400;
+font-style: normal;
+    
+    
+}
+
+div {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: yellow;
+    max-width: 300px;
+    padding: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    display: flex;
+    margin: 0 auto;
+
+
+}
+
+body {
+    background-image: url(../img/waterfall.png);
+    background-color: yellow;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+nav a{
+  display: block;
+  text-decoration: none;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  color: #111;
+  background: rgb(244, 237, 237);
+  transition: transform .15s ease, background .15s ease;
+}
+
+nav a:link {
+    
+    color: black;
+}
+nav a:hover {
+    color: rgb(245, 219, 16);
+}
+#laba {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "walnut", sans-serif;
+font-weight: 400;
+font-style: normal;
+}

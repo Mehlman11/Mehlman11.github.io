@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    min-height: 100vh;
+    place-items: center;
+    display: grid;
+    
+}
+.poster {
+               /* key for absolute positioning inside */
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background: #b9aa8f;             /* tan/cream */
+  overflow: hidden;
+  margin: auto, 0;
+  font-family: "mendl-serif-variable", sans-serif;
+font-variation-settings: "STYL" 0, "wght" 600;
+}
+
+.one {
+    font-size: 600px;
+    position: absolute;
+    left: 50px;
+  top: 10px;
+ font-size: 700px;
+  font-weight: 900;
+  line-height: 0.8;
+  z-index: 1;
+  font-size: 700px;
+  
+}
+.r-wrap {
+  position: absolute;
+  left: 220px;
+  top: 320px;
+  transform: rotate(28deg);
+  transform-origin: left top;
+  z-index: 2;
+}
+ .p {
+    font-size: 330px;
+  color: #1b1512;
+  bottom: -100px;
+  left: 70px;
+    transform: rotate(300deg);
+    position: absolute;
+ 
+ }
+
+
+
+
+
+.o {
+    position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  left: 80px;
+  top: -115px;
+  z-index: 3;
+  color: white;
+  font-size: 200px;
+                    
+}
+
+ .roun {
+  position: absolute;
+  top: -190px;
+  left: 100px;
+  font-size: 24px;
+  letter-spacing: 2px;   
+  z-index: 2;    
+  color: black;
+  transform: rotate(0deg);
+  background-color: #b9aa8f;
+}
+.el {
+   position: absolute;
+  right: 150px;
+  top: 110px;
+  font-size: 30px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.lissitzky {
+  position: absolute;
+  right: 40px;
+  top: 130px;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: #1b1512;
+  transform: rotate(12deg);        /* slight arc vibe (simple version) */
+}
+
+/* bottom text */
+.bottom {
+   position: absolute;
+  bottom: 60px;
+  left: 61%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}    
