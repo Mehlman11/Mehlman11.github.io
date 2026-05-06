@@ -121,7 +121,42 @@ body {
     transform: scale(1.05);
 }
 
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
 
+    html,
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        background: black !important;
+        overflow: visible !important;
+    }
+
+    .main-container {
+        background: black !important;
+        padding: 10px !important;
+    }
+
+    .container {
+        background: black !important;
+        min-height: calc(100vh - 20px) !important;
+        height: auto !important;
+        overflow: visible !important;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .arrow-link {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        transform: none !important;
+        margin-top: 40px;
+    }
+}
 @media screen and (max-width: 600px) {
     .main-container {
         padding: 10px;
