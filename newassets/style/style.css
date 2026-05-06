@@ -1,0 +1,77 @@
+/*
+*(    outline: 1px solid black;
+}
+*/
+
+.komet-regular {
+
+}
+
+body {
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(238, 122, 5);
+    text-align: center;
+    
+}
+
+nav {
+    background-color: rgba(93, 51, 51, 0.471);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+a{
+    color: antiquewhite;
+    font-size: 36px;
+}
+nav > a {
+    padding: 10px 20px;
+}
+
+main {
+    text-align: center;
+    padding: Opx 30%;
+}
+
+img {
+    width: 100%;
+}
+h1 {
+    color: antiquewhite;
+    font-size: 36pt;
+    font-weight: 900;
+}
+p{
+    color:#753a1061;
+    font-size: 24px;
+}
+
+
+header > h1 {
+    color:rgb(177, 200, 28);
+   font-size: 36pt;
+
+}
+
+footer {
+    background-color: rgba(133, 78, 11, 0.481);
+    color: antiquewhite;
+    min-height: 50px;
+}
+
+footer > p {
+    color: antiquewhite;
+}
+/*Hey guys use rest of this area for specific code*/
